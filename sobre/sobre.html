@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amusing - Sobre Nós</title>
+    <link rel="stylesheet" href="sobre.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Amus<span>ing</span></div>
+        <nav class="nav">
+            <a href="/index/index.html" data-key="navHome">/HOME</a>
+            <a href="/config/config.html" data-key="navConfig">/CONFIG</a>
+            <a href="/contato/contato.html" data-key="navContact">/CONTATO</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 data-key="aboutHeroTitle">Sobre o Amusing</h1>
+            <p data-key="aboutHeroSubtitle">Conheça a história, a missão e a equipe por trás do projeto.</p>
+        </section>
+
+        <section class="info-card">
+            <h2 data-key="missionTitle">Nossa Missão</h2>
+            <p data-key="missionDesc">
+                O <strong>Amusing</strong> nasceu com o propósito de conectar pessoas a novas experiências sonoras. 
+                Utilizando um algoritmo interativo de sugestões por gênero, nosso objetivo é ajudar ouvintes a descobrirem 
+                músicas marcantes de forma rápida, simples e acessível.
+            </p>
+        </section>
+
+        <section class="info-card">
+            <h2 data-key="teamTitle">Desenvolvedores</h2>
+            <div class="team-grid">
+                
+                <div class="team-member">
+                    <div class="avatar-placeholder">FM</div>
+                    <h3>Fernando Maciozek</h3>
+                    <p class="role" data-key="devRole1">Desenvolvedor Full Stack & Algoritmos</p>
+                    <p class="bio" data-key="devBio1">Responsável pela estrutura lógica de recomendação, integração da API e arquitetura do projeto.</p>
+                </div>
+
+                <div class="team-member">
+                    <div class="avatar-placeholder">ET</div>
+                    <h3>Eduardo Toshio</h3>
+                    <p class="role" data-key="devRole2">Desenvolvedor Frontend & UI/UX</p>
+                    <p class="bio" data-key="devBio2">Focado na criação da interface visual, acessibilidade, temas e experiência do usuário no site.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="info-card">
+            <h2 data-key="techTitle">Tecnologias Utilizadas</h2>
+            <ul class="tech-list">
+                <li><strong>HTML5:</strong> Estrutura semântica e acessível.</li>
+                <li><strong>CSS3:</strong> Design moderno com suporte a temas e alto contraste.</li>
+                <li><strong>JavaScript (ES6+):</strong> Interatividade dinâmica e gerenciamento de estado via LocalStorage.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p><span data-key="devBy">Desenvolvido por</span> <strong>Fernando Maciozek</strong> <span data-key="and">e</span> <strong>Eduardo Toshio</strong></p>
+            <ul class="footer-links">
+                <li><a href="https://amusing-fictional-docs.org" target="_blank" rel="noopener" data-key="footerApi">Documentação API</a></li>
+                <li><a href="https://amusing-fictional-privacy.org" target="_blank" rel="noopener" data-key="footerTerms">Termos e Privacidade</a></li>
+                <li><a href="https://amusing-fictional-status.org" target="_blank" rel="noopener" data-key="footerStatus">Status do Servidor</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="sobre.js"></script>
+</body>
+</html>

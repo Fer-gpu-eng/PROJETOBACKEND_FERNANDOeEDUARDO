@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amusing - Configurações</title>
+    <link rel="stylesheet" href="config.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Amus<span>ing</span></div>
+        <nav class="nav">
+            <a href="/index/index.html" data-key="navHome">/HOME</a>
+            <a href="/sobre/sobre.html" data-key="navAbout">/SOBRE NÓS</a>
+            <a href="/contato/contato.html" data-key="navContact">/CONTATO</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 data-key="heroTitle">Configurações do Sistema</h1>
+            <p data-key="heroSubtitle">Personalize sua experiência de navegação e preferências do Amusing.</p>
+        </section>
+
+        <section class="config-card">
+            <div class="config-item">
+                <div class="config-header">
+                    <label for="language-select" class="config-title" data-key="langTitle">Idioma da Página</label>
+                    <select id="language-select" class="config-select">
+                        <option value="pt-br" selected>Português (Brasil)</option>
+                        <option value="en-us">English (US)</option>
+                    </select>
+                </div>
+                <p class="config-description" data-key="langDesc">
+                    Altere o idioma de exibição do site. Esta preferência será aplicada em todas as páginas do sistema.
+                </p>
+            </div>
+
+            <hr class="subtle-divider">
+
+            <div class="config-item">
+                <div class="config-header">
+                    <span class="config-title" data-key="themeTitle">Tema Visual</span>
+                    <div class="theme-options">
+                        <label class="radio-option">
+                            <input type="radio" name="theme" value="dark" checked id="radio-dark">
+                            <span></span>
+                            <span data-key="themeDark">Escuro</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="theme" value="light" id="radio-light">
+                            <span></span>
+                            <span data-key="themeLight">Claro</span>
+                        </label>
+                    </div>
+                </div>
+                <p class="config-description" data-key="themeDesc">
+                    Escolha entre o modo escuro padrão ou o modo claro para ajustar a iluminação da interface.
+                </p>
+            </div>
+
+            <hr class="subtle-divider">
+
+            <div class="config-item">
+                <div class="config-header">
+                    <span class="config-title" data-key="contrastTitle">Modo de Alto Contraste</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="contrast-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <p class="config-description" data-key="contrastDesc">
+                    Aumente o contraste visual das bordas e textos para melhorar a legibilidade. Funciona perfeitamente tanto no modo claro quanto no modo escuro.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p><span data-key="devBy">Desenvolvido por</span> <strong>Fernando Maciozek</strong> <span data-key="and">e</span> <strong>Eduardo Toshio</strong></p>
+            <ul class="footer-links">
+                <li><a href="https://amusing-fictional-docs.org" target="_blank" rel="noopener" data-key="footerApi">Documentação API</a></li>
+                <li><a href="https://amusing-fictional-privacy.org" target="_blank" rel="noopener" data-key="footerTerms">Termos e Privacidade</a></li>
+                <li><a href="https://amusing-fictional-status.org" target="_blank" rel="noopener" data-key="footerStatus">Status do Servidor</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+</body>
+</html>

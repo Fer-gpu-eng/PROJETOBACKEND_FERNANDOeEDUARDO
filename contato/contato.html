@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amusing - Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Amus<span>ing</span></div>
+        <nav class="nav">
+            <a href="/index/index.html" data-key="navHome">/HOME</a>
+            <a href="/config/config.html" data-key="navConfig">/CONFIG</a>
+            <a href="/sobre/sobre.html" data-key="navAbout">/SOBRE NÓS</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 data-key="contactHeroTitle">Entre em Contato</h1>
+            <p data-key="contactHeroSubtitle">Dúvidas, sugestões ou feedbacks? Envie uma mensagem para nossa equipe.</p>
+        </section>
+
+        <section class="info-card">
+            <h2 data-key="formHeader">Formulário de Mensagem</h2>
+
+            <form id="contact-form" class="contact-form">
+                
+                <div class="form-group">
+                    <label for="nome" data-key="labelName">Seu Nome</label>
+                    <input type="text" id="nome" required placeholder="Ex: Maria Silva">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" data-key="labelEmail">Seu E-mail</label>
+                    <input type="email" id="email" required placeholder="Ex: maria@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto" data-key="labelSubject">Assunto</label>
+                    <select id="assunto" class="config-select" required>
+                        <option value="duvida" data-key="optQuestion">Dúvida sobre Recomendação</option>
+                        <option value="bug" data-key="optBug">Reportar um Problema/Bug</option>
+                        <option value="sugestao" data-key="optSuggestion">Sugestão de Funcionalidade</option>
+                        <option value="outro" data-key="optOther">Outro Assunto</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem" data-key="labelMessage">Sua Mensagem</label>
+                    <textarea id="mensagem" rows="5" required placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+
+                <button type="submit" class="recommend-btn" data-key="btnSend">Enviar Mensagem</button>
+
+            </form>
+
+            <div id="form-feedback" class="form-feedback"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p><span data-key="devBy">Desenvolvido por</span> <strong>Fernando Maciozek</strong> <span data-key="and">e</span> <strong>Eduardo Toshio</strong></p>
+            <ul class="footer-links">
+                <li><a href="https://amusing-fictional-docs.org" target="_blank" rel="noopener" data-key="footerApi">Documentação API</a></li>
+                <li><a href="https://amusing-fictional-privacy.org" target="_blank" rel="noopener" data-key="footerTerms">Termos e Privacidade</a></li>
+                <li><a href="https://amusing-fictional-status.org" target="_blank" rel="noopener" data-key="footerStatus">Status do Servidor</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="contato.js"></script>
+</body>
+</html>

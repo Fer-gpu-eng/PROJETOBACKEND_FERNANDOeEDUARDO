@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "name": "projetobackend_fernandoeeduardo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fer-gpu-eng/PROJETOBACKEND_FERNANDOeEDUARDO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Fer-gpu-eng/PROJETOBACKEND_FERNANDOeEDUARDO/issues"
+  },
+  "homepage": "https://github.com/Fer-gpu-eng/PROJETOBACKEND_FERNANDOeEDUARDO#readme"
+}

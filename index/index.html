@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amusing - Recomendação de Música</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header class="header">
+<div class="logo">A<span>musing</span></div>
+<nav class="nav">
+<a href="/index/index.html" data-key="navHome">/HOME</a>
+<a href="/config/config.html" data-key="navConfig">/CONFIG</a>
+<a href="/sobre/sobre.html" data-key="navAbout">/SOBRE NÓS</a>
+<a href="/contato/contato.html" data-key="navContact">/CONTATO</a>
+</nav>
+</header>
+
+<main class="container">
+<section class="hero">
+<h1 data-key="homeHeroTitle">Descubra suas próximas músicas favoritas</h1>
+<p data-key="homeHeroDesc">Selecione um gênero musical para receber 5 recomendações aleatórias com links diretos para ouvir.</p>
+</section>
+
+<section class="recommender-card">
+<h2 data-key="homeSelectGenre">Gêneros Musicais</h2>
+<div class="genre-grid">
+<button class="genre-btn active" data-genre="Rock">Rock</button>
+<button class="genre-btn" data-genre="Pop">Pop</button>
+<button class="genre-btn" data-genre="Jazz">Jazz</button>
+<button class="genre-btn" data-genre="Hip-Hop">Hip-Hop</button>
+<button class="genre-btn" data-genre="Eletrônica">Eletrônica</button>
+<button class="genre-btn" data-genre="MPB">MPB</button>
+</div>
+<button class="recommend-btn" id="btn-recomendar" data-key="homeBtnRecommend">Recomendar 5 Músicas Aleatórias</button>
+
+<div class="result-display" id="resultado">
+<p class="result-placeholder" data-key="homePlaceholder">Selecione um gênero e clique no botão acima para ver as sugestões.</p>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="footer-content">
+<p>Desenvolvido por <strong>Fernando Maciozek</strong> e <strong>Eduardo Toshio</strong></p>
+<ul class="footer-links">
+<li><a href="https://amusing-fictional-docs.org" target="_blank" rel="noopener">Documentação API</a></li>
+<li><a href="https://amusing-fictional-privacy.org" target="_blank" rel="noopener">Termos e Privacidade</a></li>
+<li><a href="https://amusing-fictional-status.org" target="_blank" rel="noopener">Status do Servidor</a></li>
+</ul>
+</div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
